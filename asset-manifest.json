@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/simple-gradient-app/static/css/main.d1f724f9.chunk.css",
+    "main.js": "/simple-gradient-app/static/js/main.0ab2b167.chunk.js",
+    "main.js.map": "/simple-gradient-app/static/js/main.0ab2b167.chunk.js.map",
+    "runtime-main.js": "/simple-gradient-app/static/js/runtime-main.54bba7cc.js",
+    "runtime-main.js.map": "/simple-gradient-app/static/js/runtime-main.54bba7cc.js.map",
+    "static/js/2.723be0d9.chunk.js": "/simple-gradient-app/static/js/2.723be0d9.chunk.js",
+    "static/js/2.723be0d9.chunk.js.map": "/simple-gradient-app/static/js/2.723be0d9.chunk.js.map",
+    "index.html": "/simple-gradient-app/index.html",
+    "static/css/main.d1f724f9.chunk.css.map": "/simple-gradient-app/static/css/main.d1f724f9.chunk.css.map",
+    "static/js/2.723be0d9.chunk.js.LICENSE.txt": "/simple-gradient-app/static/js/2.723be0d9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.54bba7cc.js",
+    "static/js/2.723be0d9.chunk.js",
+    "static/css/main.d1f724f9.chunk.css",
+    "static/js/main.0ab2b167.chunk.js"
+  ]
+}
