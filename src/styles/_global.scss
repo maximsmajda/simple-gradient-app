@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+.App {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: -1;
+
+  .shape {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(163.28deg, #85a4a4 19.65%, #2f4f4f 72.61%);
+    clip-path: polygon(65% 0, 100% 0, 100% 100%, 35% 100%);
+  }
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 20%;
+  width: 60%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (max-width: $breakpoint1) {
+    height: 15%;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 3.2rem;
+    color: $primary-color;
+
+    @media screen and (max-width: $breakpoint1) {
+      font-size: 2.6rem;
+    }
+
+    @media screen and (max-width: $breakpoint2) {
+      font-size: 1.8rem;
+    }
+  }
+}
+
+main {
+  width: 85%;
+  margin: 0 auto;
+  height: 68%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media screen and (max-width: $breakpoint1) {
+    flex-direction: column;
+    height: 80%;
+  }
+}
+
+footer {
+  height: 12%;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+  @media screen and (max-width: $breakpoint1) {
+    height: 5%;
+    align-items: center;
+  }
+
+  p {
+    color: $primary-color;
+    font-size: 0.9rem;
+    @media screen and (max-width: $breakpoint1) {
+      font-size: 0.6rem;
+    }
+  }
+
+  a {
+    color: $primary-color;
+
+    transition: all 0.1s ease-in-out;
+
+    &:visited {
+      color: $primary-color;
+    }
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
